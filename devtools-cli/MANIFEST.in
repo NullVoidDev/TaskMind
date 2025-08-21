@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+include requirements.txt
+include .gitignore
+recursive-include devtools *.py
+recursive-include docs *
+recursive-include examples *
+global-exclude __pycache__
+global-exclude *.py[co]
